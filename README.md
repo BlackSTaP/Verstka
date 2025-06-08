@@ -1,6 +1,9 @@
-# MMO Resource Calculator
+# MMO Resource Calculator (Python)
 
-This is a simple WPF application for Windows that allows you to create tables of resources for MMO games. You can dynamically add columns and rows, attach images to cells, and save or load the table as XML.
+This repository contains a simple desktop application written in **Python** using
+**PyQt6**. The program lets you create tables of MMO game resources. Columns and
+rows can be added dynamically, images may be attached to cells, and the table
+can be saved to or loaded from an XML file.
 
 ## Features
 
@@ -9,4 +12,16 @@ This is a simple WPF application for Windows that allows you to create tables of
 - Attach images to cells via double-click
 - Save and load tables as XML files
 
-To build the project, open `MMOResourceCalculator.csproj` in Visual Studio 2022 or later with .NET 8.0 SDK installed.
+## Requirements
+
+- Python 3.11 or later
+- [PyQt6](https://pypi.org/project/PyQt6/) (`pip install PyQt6`)
+
+## Running
+
+Install the requirement and start the application:
+
+```bash
+pip install PyQt6
+python mmo_resource_calculator.py
+```
